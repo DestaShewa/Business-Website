@@ -226,3 +226,52 @@ footer {
     margin-top: 30px;
   }
 }
+/* Services Page */
+#services li {
+  list-style: none;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 20px;
+  background: #f4f4f4;
+}
+
+#services li:last-child {
+  border-bottom: none;
+}
+
+.quote input,
+.quote textarea {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.quote textarea {
+  height: 100px;
+}
+
+/* Contact Page */
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#map {
+  margin-top: 30px;
+}
+
+#sidebar i {
+  margin-right: 10px;
+  color: #e8491d;
+}
+
+#sidebar p {
+  margin-bottom: 10px;
+}
